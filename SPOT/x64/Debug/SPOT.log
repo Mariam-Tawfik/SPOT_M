@@ -1,0 +1,18 @@
+﻿  ActionAddNotes.cpp
+  ActionDeleteCourse.cpp
+  ActionShowNotes.cpp
+  ActionAddCourse.cpp
+  Course.cpp
+  GUI.cpp
+D:\CIE-year 2\CIE 202 _C++\Project\SPOT - CIE202 Project Code Framework\SPOT\GUI\GUI.cpp(110,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\CIE-year 2\CIE 202 _C++\Project\SPOT - CIE202 Project Code Framework\SPOT\GUI\GUI.cpp(111,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\CIE-year 2\CIE 202 _C++\Project\SPOT - CIE202 Project Code Framework\SPOT\GUI\GUI.cpp(112,28): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+D:\CIE-year 2\CIE 202 _C++\Project\SPOT - CIE202 Project Code Framework\SPOT\GUI\GUI.cpp(163,142): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+D:\CIE-year 2\CIE 202 _C++\Project\SPOT - CIE202 Project Code Framework\SPOT\GUI\GUI.cpp(163,74): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+  Main.cpp
+  Registrar.cpp
+  AcademicYear.cpp
+  StudyPlan.cpp
+  Generating Code...
+ActionAddCourse.obj : error LNK2019: unresolved external symbol "public: class std::vector<class Course,class std::allocator<class Course> > __cdecl Registrar::getCourseCatalog(void)" (?getCourseCatalog@Registrar@@QEAA?AV?$vector@VCourse@@V?$allocator@VCourse@@@std@@@std@@XZ) referenced in function "public: virtual bool __cdecl ActionAddCourse::Execute(void)" (?Execute@ActionAddCourse@@UEAA_NXZ)
+D:\CIE-year 2\CIE 202 _C++\Project\SPOT - CIE202 Project Code Framework\x64\Debug\SPOT.exe : fatal error LNK1120: 1 unresolved externals
